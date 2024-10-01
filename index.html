@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underline Header Animation</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <div class="header-wrapper border">
+    <div class="header">
+      <div class="header-div">
+        <div class="menuleiste flex justify-between items-center ">
+          <div class="logo-div">
+            <a>BVLogo</a>
+          </div>
+          <div class="menuleiste-outer">
+            <div class="menuleiste-inner">
+              <div class="menu-small">
+                <ul class="menu-small-inner flex gap-6">
+                  <li><a class="underline-animation" href="#meilensteine">Meilensteine</a></li>
+                  <li><a class="underline-animation" href="#philosophie">Philosophie</a></li>
+                  <li><a class="underline-animation" href="#standort">Standort</a></li>
+                  <li><a class="underline-animation" href="#wohnraum">Wohnraum</a></li>
+                  <li><a class="underline-animation" onclick="activate(this)" href="#baubeschrieb">Baubeschrieb</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grow w-full bg-slate-950">
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
